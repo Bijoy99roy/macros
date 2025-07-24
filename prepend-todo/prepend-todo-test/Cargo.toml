@@ -1,0 +1,9 @@
+[package]
+name = "prepend-todo-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+prepend-todo = {path="../prepend-todo"}
+serde ={ version =  "1.0.219", features = ["derive"] }
+serde_json = "1.0.141"
